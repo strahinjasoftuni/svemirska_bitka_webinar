@@ -78,6 +78,7 @@ def igraj_svemirski_okrsaj():
     energija_stita = 100 # Pocetna energija stita
     rakete = 3 # Pocetni broj raketa
     unisteni_neprijatelji = 0
+    print("comitujem print")
 
     for sektor in range(1, 6):
         prikazi_status(sektor, energija_stita, rakete)
